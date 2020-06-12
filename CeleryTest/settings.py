@@ -31,8 +31,8 @@ ALLOWED_HOSTS = []
 
 
 # celery相关配置
-CELERY_RESULT_BACKEND = 'redis://47.105.70.179:6379'
-CELERY_BROKER_URL = 'redis://47.105.70.179:6379'
+CELERY_RESULT_BACKEND = 'redis://x.x.x.x:6379'
+CELERY_BROKER_URL = 'redis://x.x.x.x:6379'
 CELERY_ACCEPT_CONTENT = ['json']
 CELERY_TASK_SERIALIZER = 'json'
 CELERY_BEAT_SCHEDULER = 'django_celery_beat.schedulers:DatabaseScheduler'
